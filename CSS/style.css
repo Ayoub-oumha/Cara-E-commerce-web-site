@@ -57,7 +57,6 @@ a {
 .section-m1 {
   margin: 40px 0;
 }
-
 button.normal {
   font-size: 14px;
   font-weight: 600;
@@ -70,7 +69,6 @@ button.normal {
   outline: none;
   transition: all 0.3s ease;
 }
-
 button.white {
   font-size: 13px;
   font-weight: 600;
@@ -84,18 +82,21 @@ button.white {
 }
 
 /* header section */
+header {
+  position:sticky;
+  top: 0; 
+  z-index: 200;
+}
 .header {
-  background-color: rgb(207, 202, 202);
+  background-color: rgb(249, 249, 249);
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
-  box-shadow: 0 4px 7px rgb(103, 102, 102) ;
-  z-index: 10;
+  box-shadow: 0 4px 5px rgba(103, 102, 102, 0.58) ;
+  z-index: 100;
   top: 0;
-  position : fixed;
-  position: -webkit-sticky;
   width: 100%;
 }
 .header ul {
@@ -134,11 +135,16 @@ button.white {
   bottom: -2px;
 }
  /* section  */
-section img {
+.section-cover {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden ;
+}
+.section-cover img {
   width: 100%;
   position: relative;
-  margin-top: 100px;
   object-fit: cover;
+  top :-20px
 }
 section .info {
   position: absolute;
@@ -166,7 +172,7 @@ section .info button {
   align-items: flex-start;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 .feature-section .content .pr {
   display: flex;
@@ -469,6 +475,5 @@ section .info button {
 .copyright {
   width: 100%;
   text-align: center;
-  
 }
 

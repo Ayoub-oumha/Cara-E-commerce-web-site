@@ -82,53 +82,50 @@ button.white {
 }
 
 /* header section */
-header {
+nav {
   position:sticky;
-  top: 0; 
   z-index: 200;
   background-color: rgb(249, 249, 249);
-  
-}
-.header {
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 60px;
   box-shadow: 0 4px 5px rgba(103, 102, 102, 0.58) ;
-  z-index: 60;
   top: 0;
   width: 100%;
   
 }
-.header ul {
+nav ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
-.header ul li {
+nav ul li {
   margin: 0 20px;
   
   
 }
-.header ul li a {
+nav  a {
   color: #222;
   position: relative;
   font-weight: 500;
   transition: all 0.3s ease ;
   
 }
-.header ul li a i {
+nav  i {
   font-size: 25px;
 }
-
-.header .phone-view {
+nav ul .clos-btn {
   display: none;
 }
-.header ul li .active , .header ul li a:hover {
+nav .phone-view {
+ display: none;
+}
+nav ul li .active , nav ul li a:hover {
   color: var(--primary-color);
 }
-.header ul li .active::before , .header ul li a:hover::before {
+nav ul li .active::before , nav ul li a:hover::before {
   content: "";
   background-color: var(--primary-color);
   height: 3px;

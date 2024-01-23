@@ -1,6 +1,11 @@
-let button = document.querySelector(".btn") ;
-let nav = document.querySelector(".ul") ;
+let btn = document.querySelector(".clos-btn") ;
+let ul = document.querySelector("nav ul") ; 
+let btnNav = document.getElementById("btn-nav") ;
 
-button.onclick = function () {
-    nav.style.display = "none"
+
+btn.onclick = function (){
+    ul.style.display = "none"
+}
+btnNav.onclick = function (){
+    ul.style.display = "block"
 }

@@ -1,16 +1,16 @@
 @media screen and (max-width : 799px) {
     nav ul .clos-btn {
         display: block;
-      }
-      nav .phone-view {
-       display: block;
-       cursor: pointer;
-      }
-     nav {
+    }
+    nav .phone-view {
+    display: block;
+    cursor: pointer;
+    }
+    nav {
         padding: 0 30px;
-     }
-      
-      nav ul {
+    }
+    
+    nav ul {
         z-index: 10;
         display: flex;
         flex-direction: column;
@@ -23,22 +23,22 @@
         width: 250px;
         padding: 70px 10px;
         font-size: 20px;
-      }
-      ul li {
+    }
+    ul li {
         padding: 15px;
-      }
-      nav ul .clos-btn {
+    }
+    nav ul .clos-btn {
         position: absolute;
         top : 30px ; 
         left: 30px;
-      }
-      nav ul .clos-btn  i   {
+    }
+    nav ul .clos-btn  i   {
         font-size: 35px;
-      }
-      nav .phone-view a {
+    }
+    nav .phone-view a {
         padding-right: 10px;
-      }
-      nav ul .cart-shop {
+    }
+    nav ul .cart-shop {
         display: none;
-      }
+    }
 } 

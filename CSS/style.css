@@ -82,6 +82,11 @@ button.white {
 }
 
 /* header section */
+header {
+  position: sticky;
+  top : 0 ;
+  z-index: 300;
+}
 nav {
   position:sticky;
   z-index: 200;
@@ -94,7 +99,6 @@ nav {
   box-shadow: 0 4px 5px rgba(103, 102, 102, 0.58) ;
   top: 0;
   width: 100%;
-  
 }
 nav ul {
   list-style: none;
@@ -186,6 +190,7 @@ section .info button {
   border-radius: 10%;
   padding:    0 10px 10px 10px;
   transition: 0.2s;
+  margin-top: 20px;
 }
 .feature-section .content .pr img {
   width: 100%;
@@ -236,7 +241,6 @@ section .info button {
   align-items :center;
   justify-content: space-evenly;
   padding:  0 60px;
-  
 }
 .product .prod .pro-info {
   width: 250px;
@@ -300,8 +304,8 @@ section .info button {
   justify-content: center;
   flex-direction: column;
   background: url(../img/banner/b2.jpg) center/cover ;
-  padding: 50px 0;
-  margin-top: 80px;
+  padding: 40px 0;
+  margin-top: 50px;
   
 }
 .banner h3 {
@@ -317,9 +321,9 @@ section .info button {
 }
 .banner button {
   border:  0;
-  background-color: var(--primary-color);
+  background-color: white;
   padding: 15px 20px;
-  color: white;
+  color: black;
   border-radius: 5px;
   cursor: pointer;
   font-weight :600 ;
@@ -328,13 +332,14 @@ section .info button {
 .banner2 {
   display: flex;
   flex-wrap: wrap;
-  margin-top:   50px;
+  margin-top:   80px;
   justify-content: space-around;
+  padding: 0 20px;
   
 }
 .banner2 .cont {
-  background: url(../img/img1.jpg) center/cover no-repeat;
-  width: 45%;
+  background: url(../img/img1.jpg) top right/cover no-repeat;
+  width: 47%;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -388,7 +393,7 @@ section .info button {
   padding: 10px;
   font-size: large;
   font-weight: 800;
-  font-size: 35px;
+  font-size: 30px;
 }
 .banner3 .cont h5 {
   color: red;
@@ -404,12 +409,10 @@ section .info button {
 /* banner 4 */
 .banner4 {
   background: url(../img/banner/b1.jpg) center/cover no-repeat;
-  height: 200px;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0 80px;
+  justify-content: space-around;
+  padding: 30px 0 ;
   margin-top: 40px;
 }
 .banner4 .para h4 {
@@ -418,13 +421,17 @@ section .info button {
 }
 .banner4 .para p {
   color: #e2e2e2;
+  padding: 0;
+  margin: 0;
 }
 .banner4 .para p span {
   color: rgb(255, 204, 0);
 }
+.banner4 .sign {
+  display: inline;
+}
 .banner4 .sign input {
   padding: 10px ;
-  width: 300px;
   margin: 0;
   border: 0;
   border-radius: 5px;
@@ -432,7 +439,7 @@ section .info button {
 .banner4 .sign button {
   color: white;
   background-color: var(--primary-color);
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: 0;
   margin: 0;
   border-radius: 5px;
@@ -441,6 +448,7 @@ section .info button {
 .section-p1 {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   padding: 0;
   margin-top: 50px;
 }
@@ -448,6 +456,7 @@ section .info button {
   display: flex;
   flex-direction: column;
   padding: 0 12px;
+
 }
 .section-p1 .col .logo {
   width: 200px;
@@ -473,6 +482,7 @@ section .info button {
   margin: 10px 0;
 }
 .copyright {
+  margin-top: 50px;
   width: 100%;
   text-align: center;
 }

@@ -53,7 +53,42 @@
         justify-content: space-evenly;
         padding: 0 40px;
     }
+    /* banner */
+    .banner {
+        padding: 10px 0;
+    }
+    .banner h2 {
+        font-size: 34px;
+    
+    }
+    /* banner two */
+    .banner2 .cont  {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    /* banner three */
+    .banner3 {
+        margin: 0 20px;
+    }
+    .banner3 .cont h4 {
+        font-size: 25px;
+    }
+    /* banner 4 */
+    .banner4 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding-left: 10px;
+
+    }
+    .banner4 .para p {
+        margin-bottom: 10px;
+    }
+    /* section p1 or foot */ 
+    .section-p1{
+        padding: 30px;
+    }
+    .section-p1 .col {
+    width: 50%;
+    }
 } 
-.feature-section .content .pr {
-    margin-top: 20px;
-}

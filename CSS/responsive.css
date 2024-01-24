@@ -42,4 +42,18 @@
     nav ul .cart-shop {
         display: none;
     }
+    /* section */
+    .section-cover img {
+        object-position: top 20% right 20%;
+    }
+    /* Feature  section */
+    .feature-section .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 40px;
+    }
 } 
+.feature-section .content .pr {
+    margin-top: 20px;
+}

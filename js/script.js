@@ -8,5 +8,4 @@ btn.onclick = function (){
 }
 btnNav.onclick = function (){
     ul.style.display = "block" ;
-    
 }

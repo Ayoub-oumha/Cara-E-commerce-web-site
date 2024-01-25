@@ -7,5 +7,6 @@ btn.onclick = function (){
     ul.style.display = "none"
 }
 btnNav.onclick = function (){
-    ul.style.display = "block"
+    ul.style.display = "block" ;
+    
 }

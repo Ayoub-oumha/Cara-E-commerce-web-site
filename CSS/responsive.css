@@ -127,7 +127,7 @@
     .feature-section .content .pr {
         width: 130px;
         height: 130px;
-        background-color: 
+        
     }
     /* Products */
     .product .title h2 {
@@ -149,7 +149,9 @@
         font-size: 20px;
         padding: 0;
         text-align: center;
-        margin: 0;
+        line-height: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     /* banner three */
     .banner3 {
@@ -169,4 +171,6 @@
     .banner4 .para p {
         font-size: 15px;
     }
+    /* section p1 or foot */
+
 }

@@ -148,7 +148,7 @@ nav ul li .active::before , nav ul li a:hover::before {
   position: relative;
   object-fit: cover;
   height: 100%;
-  top :-15px
+  object-position: 0px -20px ;
 }
 section .info {
   position: absolute;

@@ -185,8 +185,9 @@
     .copyright p{
         font-size: 12px;
     }
-    .section-p1 .col .row img {
-        
+    .section-p1 .col {
+      
+        width: 100%;
     }
 
 }

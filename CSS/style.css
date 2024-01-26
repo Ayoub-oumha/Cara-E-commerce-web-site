@@ -107,15 +107,12 @@ nav ul {
 }
 nav ul li {
   margin: 0 20px;
-  
-  
 }
 nav  a {
   color: #222;
   position: relative;
   font-weight: 500;
   transition: all 0.3s ease ;
-  
 }
 nav  i {
   font-size: 25px;
@@ -304,9 +301,8 @@ section .info button {
   justify-content: center;
   flex-direction: column;
   background: url(../img/banner/b2.jpg) center/cover ;
-  padding: 40px 0;
+  padding:  40px 0;
   margin-top: 50px;
-  
 }
 .banner h3 {
   color: white;
@@ -459,7 +455,7 @@ section .info button {
 
 }
 .section-p1 .col .logo {
-  width: 200px;
+  width: 150px;
   padding-bottom: 20px;
 }
 .section-p1 .col p{

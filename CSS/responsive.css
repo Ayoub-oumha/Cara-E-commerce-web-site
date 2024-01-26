@@ -1,4 +1,4 @@
-@media screen and (max-width : 799px) {
+@media screen and (max-width : 899px) {
     nav ul .clos-btn {
         display: block;
     }
@@ -32,7 +32,7 @@
         top : 30px ; 
         left: 30px;
     }
-    nav ul .clos-btn  i   {
+    nav ul .clos-btn i {
         font-size: 35px;
     }
     nav .phone-view a {
@@ -62,7 +62,7 @@
     }
     /* banner two */
     .banner2 .cont  {
-        width: 90%;
+        width: 95%;
         margin-bottom: 15px;
     }
     /* banner three */
@@ -91,3 +91,82 @@
     width: 50%;
     }
 } 
+@media screen and (max-width : 500px) {
+    nav ul {
+        width: 200px;
+    }
+    nav {
+        height: 60px;
+        padding: 10px;
+    }
+    /* section  */
+    .section-cover img {
+        width: 100%;
+        position: relative;
+        object-fit: cover;
+        height: 100%;
+        object-position:  -400px -15px ;
+    }
+    section .info {
+        position: absolute;
+        top: 50%;
+        transform: translate();
+        padding: 0 20px;
+        user-select: none;
+    }
+    section .info h4 {
+        font-size: 20px;
+    }
+    section .info h1 {
+        font-size: 40px;
+    }
+    section .info h2 {
+        font-size: 35px;
+    }
+    /* Feature Section  */
+    .feature-section .content .pr {
+        width: 130px;
+        height: 130px;
+        background-color: 
+    }
+    /* Products */
+    .product .title h2 {
+        font-size: 30px;
+        padding: 0;
+    }
+    .product .title p {
+        padding: 0;
+    }
+    .product .prod {
+        padding: 0;
+    }
+    /* banner */
+    .banner h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+    .banner h2 {
+        font-size: 20px;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+    /* banner three */
+    .banner3 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .banner3 .cont {
+        width: 96%;
+    }
+    /* banner foor  */
+    .banner4 .para {
+        text-align: center;
+    }
+    .banner4 .para h4 {
+        font-size: 20px;
+    }
+    .banner4 .para p {
+        font-size: 15px;
+    }
+}
